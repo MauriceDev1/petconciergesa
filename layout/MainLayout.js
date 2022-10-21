@@ -5,7 +5,7 @@ import Footer from '../components/general/Footer'
 export default function MainLayout({children}) {
   return (
     <>
-        <div>
+        <div className='sticky top-0'>
             <Nav />
         </div>
         {children}
