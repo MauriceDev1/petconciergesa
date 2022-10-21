@@ -38,7 +38,7 @@ export default function SignUp() {
        value={email} 
        className='text-center outline-none border text-normal md:text-lg w-9/12 sm:h-12 rounded-l-lg'/>
       <button 
-        className='w-4/12 md:w-3/12 h-10 sm:h-12 rounded-r-lg text-white text-md md:text-xl hover:border-r-4 hover:border-b-4 hover:border-pink-500 sm:text-xl bg-pink-600'
+        className='w-4/12 md:w-3/12 h-10 sm:h-12 rounded-r-lg text-white text-md md:text-xl sm:text-xl bg-pink-600'
         onClick={subscribe}
       >
         {loading ? <div className='flex w-full'><div className="loader m-auto"></div></div> : 'Subscribe'}</button>

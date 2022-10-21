@@ -16,7 +16,7 @@ export default function Testimonials() {
             </p>
             <div 
               className='w-32 h-32 mt-10  bg-gray-100 justify-center rounded-full'>
-                {/* <Image src={Profile} alt="profile image" width={130} height={105} /> */}
+                <Image src={Profile} alt="profile image" width={130} height={105} />
               </div>
           </div>
         </div>
