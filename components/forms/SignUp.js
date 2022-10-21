@@ -22,12 +22,12 @@ export default function SignUp() {
 
   return (
     <div 
-    className='flex bg-pink-200 flex-wrap w-full md:h-[35vh] py-6 md:py-0'>
+    className='flex bg-pink-200 flex-wrap w-full py-6 md:py-9'>
     <div className='flex flex-wrap w-10/12 md:w-7/12 m-auto'>
       <div className='flex w-full'>
         <h1 
-            className='text-[23px] md:text-6xl font-bold m-auto pb-5 sm:pb-10 text-gray-800'
-            style={{fontFamily: 'Blueberry'}}>Subscribe to Pet Concierge</h1>
+            className='text-[23px] md:text-6xl font-bold m-auto pb-5 sm:pb-10 text-gray-800'>
+              Subscribe to Pet Concierge</h1>
       </div>
       <div className='flex w-full md:w-10/12 m-auto'>
       <input
