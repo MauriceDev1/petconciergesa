@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Hero from '../components/general/Hero'
+import IntroPanel from '../components/site/home/IntroPanel'
+import ServiceList from '../components/site/home/ServiceList'
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero height='h-[100vh]' />
+      <IntroPanel />
+      <ServiceList />
     </div>
   )
 }
