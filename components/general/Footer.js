@@ -45,11 +45,11 @@ function Footer() {
                   <li>Prices</li>
                 </a>
               </Link>
-              {/* <Link href="/blog">
+              <Link href="/contact">
                 <a>
-                  <li>Blog</li>
+                  <li>Contact</li>
                 </a>
-              </Link> */}
+              </Link>
             </ul>
           </div>
           <div className='w-full md:w-1/4 mt-5'>
