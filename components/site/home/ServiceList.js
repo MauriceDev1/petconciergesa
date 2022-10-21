@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import LinkButton from '../../general/LinkButton'
 
 export default function ServiceList() {
 
@@ -28,12 +29,7 @@ export default function ServiceList() {
             <ul className='mb-10 sm:mb-14'>
               {ListServices.map(ls=> <li className='text-xl py-1 font-semibold' key={ls}><i class="fa-solid fa-paw mr-5"></i>{ls}</li> )}
             </ul>
-            <Link href="/services">
-              <a
-                className='rounded-md md:text-xl bg-pink-600 px-5 m-auto py-2 md:py-3 text-white hover:border-r-4 hover:border-b-4 hover:border-pink-500'>
-                  Find Out More
-              </a>
-            </Link>
+            <LinkButton link="/services" text="Find Out More" />
           </div>
         </div>
     </div>
