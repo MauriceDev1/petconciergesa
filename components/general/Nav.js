@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Logo from '../../assets/images/logo.png'
 
 import Image from 'next/image';
+import Button from './Button';
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
@@ -54,7 +55,7 @@ export default function Nav() {
                       <Link href={item.href} key={item.name}>
                         <a
                             className={classNames(
-                            item.current ? 'bg-gray-900 text-white' : 'text-gray-600 hover:bg-gray-700 hover:text-white',
+                            item.current ? 'bg-pink-600 text-white' : 'text-gray-600 hover:bg-gray-700 hover:text-white',
                             'px-3 py-2 rounded-md text-sm font-medium'
                             )}
                             aria-current={item.current ? 'page' : undefined}
@@ -67,12 +68,7 @@ export default function Nav() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              <button
-                className='hidden md:flex rounded-md px-5 m-auto py-2 text-white md:mx-10 hover:border-r-4 hover:border-b-4 hover:border-pink-500 text-md hover:bg-green-600'
-                style={{backgroundColor:"#536b78"}}
-                onClick={openModal}>
-                  Book Now
-              </button>
+              <Button />
               </div>
             </div>
           </div>
