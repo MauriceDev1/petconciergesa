@@ -3,7 +3,7 @@ import Contact from '../../forms/Contact'
 
 export default function ContactFormat() {
   return (
-    <div className='flex flex-wrap w-full justify-center'>
+    <div className='flex flex-wrap w-full justify-center bg-gray-50'>
         <div className='flex flex-wrap w-11/12 md:w-9/12 py-10'>
           <div className='w-full md:w-1/2'>
             <Contact />
