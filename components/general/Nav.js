@@ -73,7 +73,7 @@ export default function Nav() {
             </div>
           </div>
           <div className={open1 ? 'absolute top-0 left-0 w-full duration-300 h-screen bg-red-500 z-50 overflow-hidden': 'absolute top-0 left-[-100%] w-full duration-300 h-screen bg-red-500 z-50'} style={{zIndex:1500}}>
-            <div className='flex w-full h-full bg-pink-200'>
+            <div className='flex w-full h-full bg-light-blue'>
               <div className='text-white absolute top-5 right-5' onClick={() => setOpen1(false)}>
               <XMarkIcon className="block h-6 w-6 cursor-pointer" aria-hidden="true" />
               </div>
