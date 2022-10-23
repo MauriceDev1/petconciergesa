@@ -19,7 +19,7 @@ export default function ContactFormat() {
               Contact
             </div>
             <div className='mt-5'>
-              +27 67 642 0911 <br></br>+27 694 387 5111
+              +27 67 642 0911
             </div>
             <div className='w-full bg-gray-100 h-52 mt-10'>
 
