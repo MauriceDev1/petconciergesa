@@ -10,6 +10,62 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero height='h-[55vh]' url="https://images.unsplash.com/photo-1551902751-ec7d94221ecc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1546&q=80"/>
+      <div className='flex w-full sm:py-16'>
+        <div className='flex flex-wrap w-10/12 sm:w-10/12 m-auto'>
+          <div className='md:w-2/3 text-lg sm:px-10'>
+          <h1 
+            className='text-white text-4xl md:text-6xl text-center py-8 sm:py-10 text-gray-600 font-bold my-auto'
+            style={{fontFamily: 'Blueberry'}}>History</h1>
+            <p className='sm:pb-10 text-xl'>
+              Pet Concierge was officially founded in 2022 by Kristian R. Lawrence after 
+              adopting two dogs and six cats and assisting other families with their pet&apos;s 
+              well-being.
+            <br></br><br></br>
+              It was suggested by loved ones that she brings this love for animals to life 
+              by starting a pet care service that not only cares for each pet as she does 
+              her own but also assisted pet parents in their daily pet errands.
+            <br></br><br></br>
+              Loving each individually and honouring each one&apos;s personality and preferences, 
+              while meeting them at not only there needs but wants too is evident in every 
+              interaction between her and animal.
+            <br></br><br></br>
+            </p>
+          </div>
+          <div 
+            className='w-full md:w-1/3 bg-red-100 rounded h-[40vh] sm:h-[65vh]'
+            style={{backgroundImage:'url(https://images.unsplash.com/photo-1611649743829-1ed7c968cd05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=908&q=80)',backgroundSize:'cover'}}>
+
+          </div>
+        </div>
+      </div>
+      
+      <div className='flex w-full sm:py-16'>
+        <div className='flex flex-wrap w-10/12 m-auto'>
+          <div 
+            className='w-full md:w-1/3 bg-red-100 rounded'
+            style={{backgroundImage:'url(https://images.unsplash.com/photo-1608928586655-36b8e0abf78b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)',backgroundSize:'cover'}}>
+
+          </div>
+          <div className='w-full md:w-2/3 text-lg sm:px-10'>
+          <h1 
+            className='text-white text-4xl md:text-6xl text-center py-10 text-gray-600 font-bold my-auto'
+            style={{fontFamily: 'Blueberry'}}>Our Vision Mission and Core Value:</h1>
+            <ul className='sm:pb-10 text-xl'>
+              <li className='flex py-2'><p className='pl-5'>Being able to help those who can’t help themselves is our vision.</p></li>
+              <li className='flex py-2'><p className='pl-5'>Getting to know each animal and how best to love them is our mission.</p></li>
+              <li className='flex py-2'><p className='pl-5'>Respect towards them should be given for trust to be earned by them is our core value.</p></li>
+              <li className='flex py-2'><p className='pl-5'>We add these values to our business by placing people and pets over profit.</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className='w-full flex'>
+        <div className='w-11/12 sm:w-8/12 m-auto sm:pb-14'>
+        <h1 
+            className='italic text-white text-4xl sm:text-6xl text-center py-10 text-gray-600 font-bold my-auto'
+            style={{fontFamily: 'Blueberry',lineHeight:'10vh'}}>Wagging tails and rumbling purrs is the reason we are in this industry</h1>
+        </div>
+      </div>    
     </div>
   )
 }
