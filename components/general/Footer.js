@@ -13,7 +13,7 @@ import Link from 'next/link';
 function Footer() {
   return (
     <>
-      <div className='flex w-full bg-blue-400 py-10'>
+      <div className='flex w-full bg-gray-blue py-10'>
           <div className='flex flex-wrap w-8/12 m-auto py-12'>
             <div className='w-full md:w-1/4 pr-8'>
               <Image
@@ -85,9 +85,14 @@ function Footer() {
             </div>
           </div>
       </div>
-      <div className='flex w-full bg-blue-500 py-2'>
-        <div className='w-10/12 m-auto text-white'>
+      <div className='flex w-full bg-gray-blue py-2'>
+        <div className='flex w-10/12 m-auto text-white '>
+            <div>
 
+            </div>
+            <div>
+
+            </div>
         </div>
       </div>
     </>

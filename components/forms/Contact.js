@@ -47,7 +47,7 @@ export default function Contact() {
         <div>Message</div>
         <textarea className='w-full rounded p-2 h-36 my-2 border border-gray-500' {...register("message")} style={{resize:'none'}}/>
         {errors.message && <span className='text-red-600 text-sm'>This field is required</span>}
-        <button className="bg-blue-500 text-white w-full rounded py-2 hover:bg-blue-600 cursor-pointer text-md">
+        <button className="bg-blue-gray text-white w-full rounded py-2 hover:bg-gray-me cursor-pointer text-md">
         {loading ? <div className='flex w-full'><div className="loader2 m-auto"></div></div> : 'Subscribe'}
         </button>
     </form>

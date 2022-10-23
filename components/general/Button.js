@@ -8,7 +8,7 @@ export default function Button() {
   }
   return (
     <button
-      className='hidden md:flex rounded-md px-5 m-auto py-2 text-white md:mx-10 text-md bg-blue-500'
+      className='hidden md:flex rounded-md px-5 m-auto py-2 text-white md:mx-10 text-md bg-blue-gray'
       onClick={openModal}>
         Book Now
     </button>
