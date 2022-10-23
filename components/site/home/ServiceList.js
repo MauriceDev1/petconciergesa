@@ -16,7 +16,7 @@ export default function ServiceList() {
     <div 
         className='flex flex-wrap w-full bg-light-blue rounded-5xl m-auto'>
         <div 
-        className='w-full w-11/12 m-auto -mt-5 sm:mt-0 md:w-1/2 h-[29rem]'
+        className='w-full w-11/12 m-auto -mt-5 sm:mt-0 md:w-1/2 h-72 sm:h-[29rem] rounded-xl'
         style={{backgroundImage: 'url(https://images.unsplash.com/photo-1647641922521-86048be4898b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)', backgroundSize:"cover"}}>
 
         </div>
