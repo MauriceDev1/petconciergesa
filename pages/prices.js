@@ -15,7 +15,7 @@ export default function Prices() {
           <div className='w-wull bg-gray-blue text-white py-10 text-center text-white'>
             <h2 className=' text-2xl font-bold'>Grooming</h2>
             <p className='text-normal px-10'>Shampoo wash (specific to pets skin). Powder (dry) wash (specific to pets skin).Ear clean. Nail trim. Teeth clean. Brush of coat. Sun screen. Perfume spritz.
-If you do not wish for a certain grooming treatment. Please do let us know. <br></br><span className='text-black'>*</span>Pricing dependent on size and grooming treatment </p>
+If you do not wish for a certain grooming treatment. Please do let us know. <br></br><span className='text-black'>*</span> Pricing dependent on size and grooming treatment </p>
           </div>
           <div className='flex flex-wrap w-full'>
             <div className='w-1/2 border-r border-gray-300'>
@@ -23,13 +23,13 @@ If you do not wish for a certain grooming treatment. Please do let us know. <br>
                 Cat
               </div>
               <div className='flex flex-wrap w-full'>
-                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                <div className='w-1/3 border-r text-gray-600 bg-powder-blue bodre-gray-300 text-center py-2'>
                   Small
                 </div>
-                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                <div className='w-1/3 border-r text-gray-600 bg-powder-blue bodre-gray-300 text-center py-2'>
                   Medium  
                 </div>
-                <div className='w-1/3 text-center py-2'>
+                <div className='w-1/3 text-center text-gray-600 bg-powder-blue py-2'>
                   Large
                 </div>
                 <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
@@ -48,13 +48,13 @@ If you do not wish for a certain grooming treatment. Please do let us know. <br>
                 Dog
               </div>
               <div className='flex flex-wrap w-full'>
-                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                <div className='w-1/3 border-r text-gray-600 bg-powder-blue bodre-gray-300 text-center py-2'>
                   Small
                 </div>
-                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                <div className='w-1/3 border-r text-gray-600 bg-powder-blue bodre-gray-300 text-center py-2'>
                   Medium  
                 </div>
-                <div className='w-1/3 text-center py-2'>
+                <div className='w-1/3 text-center text-gray-600 bg-powder-blue py-2'>
                   Large
                 </div>
                 <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
@@ -73,6 +73,12 @@ If you do not wish for a certain grooming treatment. Please do let us know. <br>
                 Individual Treatments
               </div>
               <div className='w-full flex flex-wrap'>
+                <div className='w-5/6 py-3 border-r bg-powder-blue text-gray-600 border-gray-300 pl-16'>
+                  Description
+                </div>
+                <div className='w-1/6 text-center bg-powder-blue text-gray-600 py-3 '>
+                  Price
+                </div>
                 <div className='w-5/6 py-3 border-r border-gray-300 pl-16'>
                   Nail Trim
                 </div>
@@ -118,10 +124,10 @@ If you do not wish for a certain grooming treatment. Please do let us know. <br>
                 Day
               </div>
               <div className='flex flex-wrap w-full'>
-                <div className='w-2/3 border-r bodre-gray-300 text-center py-2'>
+                <div className='w-2/3 border-r bg-powder-blue text-gray-600 bodre-gray-300 text-center py-2'>
                   Sitting Schedule
                 </div>
-                <div className='w-1/3 text-center py-2'>
+                <div className='w-1/3 text-center bg-powder-blue text-gray-600  py-2'>
                   Price  
                 </div>
                 <div className='w-2/3 border-r bodre-gray-300 p-2'>
@@ -137,10 +143,10 @@ If you do not wish for a certain grooming treatment. Please do let us know. <br>
                 Night
               </div>
               <div className='flex flex-wrap w-full'>
-                <div className='w-2/3 border-r bodre-gray-300 text-center py-2'>
+                <div className='w-2/3 border-r bg-powder-blue text-gray-600  bodre-gray-300 text-center py-2'>
                   Sitting Schedule
                 </div>
-                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                <div className='w-1/3 border-r bg-powder-blue text-gray-600  bodre-gray-300 text-center py-2'>
                   Price  
                 </div>
                 <div className='w-2/3 p-2 border-r border-gray-300'>
@@ -208,9 +214,15 @@ If you do not wish for a certain grooming treatment. Please do let us know. <br>
           </div>
             <div className='w-full border-r border-gray-300'>
               <div className='w-full bg-light-blue py-2 text-lg text-center text-white'>
-                Training Requirements
+                We Train In
               </div>
               <div className='w-full flex flex-wrap'>
+                <div className='w-4/6 py-3 border-r text-gray-600 bg-powder-blue border-gray-300 pl-16'>
+                  Description
+                </div>
+                <div className='w-2/6 text-center py-3 text-gray-600 bg-powder-blue'>
+                  Price
+                </div>
                 <div className='w-4/6 py-3 border-r border-gray-300 pl-16'>
                   Behaviour Modification
                 </div>

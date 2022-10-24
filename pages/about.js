@@ -14,7 +14,7 @@ export default function About() {
         <div className='flex flex-wrap w-10/12 sm:w-10/12 m-auto'>
           <div className='md:w-2/3 text-lg sm:px-10'>
           <h1 
-            className='text-white text-4xl md:text-6xl text-center py-8 sm:py-10 text-gray-600 font-bold my-auto'
+            className='text-white text-4xl md:text-6xl  text-center py-8 sm:pb-10 text-gray-600 font-bold'
             >History</h1>
             <p className='sm:pb-10 text-xl'>
               Pet Concierge was officially founded in 2022 by Kristian R. Lawrence after 
