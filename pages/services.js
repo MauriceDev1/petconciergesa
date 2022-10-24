@@ -11,13 +11,13 @@ export default function Home() {
       </Head>
       <Hero height='h-72 sm:h-[55vh]' url="https://images.unsplash.com/photo-1615159517259-a48d184d7d60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"/>
       <div className='flex w-full py-10'>
-        <div className='w-10/12 m-auto text-gray-800'>
+        <div className='w-full sm:w-10/12 m-auto text-gray-800'>
           <div className='w-full'>
-            <h1 className='text-6xl font-bold text-center pb-10 text-gray-600'>Services That We Offer</h1>
+            <h1 className='text-4xl sm:text-6xl font-bold text-center pb-10 text-gray-600'>Services That We Offer</h1>
           </div>
           <div className='flex flex-wrap w-11/12 m-auto'>
             <div className='w-full sm:w-1/2 p-4'>
-              <div className='bg-gray-500 h-96' style={{backgroundImage: 'url(https://images.unsplash.com/photo-1534968119623-d3318f95ff5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80)',backgroundSize:'cover'}}>
+              <div className='bg-gray-500 h-72 sm:h-96' style={{backgroundImage: 'url(https://images.unsplash.com/photo-1534968119623-d3318f95ff5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80)',backgroundSize:'cover'}}>
 
               </div>
               <div className=''>
@@ -27,7 +27,7 @@ export default function Home() {
               </div>
             </div>
             <div className='w-full sm:w-1/2 p-4'>
-              <div className='bg-gray-500 h-96' style={{backgroundImage:'url(https://images.unsplash.com/photo-1532968165171-2bd36064c6a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)',backgroundSize: 'cover'}}>
+              <div className='bg-gray-500 h-72 sm:h-96' style={{backgroundImage:'url(https://images.unsplash.com/photo-1532968165171-2bd36064c6a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)',backgroundSize: 'cover'}}>
 
               </div>
               <div>
@@ -37,7 +37,7 @@ export default function Home() {
               </div>
             </div>
             <div className='w-full sm:w-1/2 p-4'>
-              <div className='bg-gray-500 h-96' style={{backgroundImage:'url(https://images.unsplash.com/photo-1648687347821-ebb7ba6187d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1596&q=80)',backgroundSize:'cover'}}>
+              <div className='bg-gray-500 h-72 sm:h-96' style={{backgroundImage:'url(https://images.unsplash.com/photo-1648687347821-ebb7ba6187d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1596&q=80)',backgroundSize:'cover'}}>
 
               </div>
               <div>
@@ -47,7 +47,7 @@ export default function Home() {
               </div>
             </div>
             <div className='w-full sm:w-1/2 p-4'>
-              <div className='bg-gray-500 h-96'>
+              <div className='bg-gray-500 h-72 sm:h-96'>
 
               </div>
               <div>
@@ -57,7 +57,7 @@ export default function Home() {
               </div>
             </div>
             <div className='w-full sm:w-1/2 p-4 m-auto'>
-              <div className='bg-gray-500 h-96' style={{backgroundImage: 'url(https://images.unsplash.com/photo-1536505676517-18e3f57d24b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)',backgroundSize: 'cover'}}>
+              <div className='bg-gray-500 h-72 sm:h-96' style={{backgroundImage: 'url(https://images.unsplash.com/photo-1536505676517-18e3f57d24b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)',backgroundSize: 'cover'}}>
 
               </div>
               <div>
