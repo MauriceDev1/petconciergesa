@@ -13,7 +13,7 @@ export default function Home() {
       <div className='flex w-full py-10'>
         <div className='w-10/12 m-auto text-gray-800'>
           <div className='w-full'>
-            <h1 className='text-6xl font-bold text-center pb-10'>Services That We Offer</h1>
+            <h1 className='text-6xl font-bold text-center pb-10 text-gray-600'>Services That We Offer</h1>
           </div>
           <div className='flex flex-wrap w-11/12 m-auto'>
             <div className='w-full sm:w-1/2 p-4'>
