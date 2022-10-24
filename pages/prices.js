@@ -13,29 +13,96 @@ export default function Prices() {
       <div className='w-full py-10'>
         <div className='w-10/12 m-auto border border-gray-300 rounded'>
           <div className='w-wull bg-gray-blue text-white py-2 text-center text-white'>
-            <h2 className=' text-2xl font-bold'>Grooming</h2>
-            <p className='text-normal'>Pricing dependent on size and grooming treatment</p>
+            <h2 className=' text-2xl font-bold pb-5'>Grooming</h2>
+            <p className='text-normal'>Shampoo wash (specific to pets skin). Powder (dry) wash (specific to pets skin).Ear clean. Nail trim. Teeth clean. Brush of coat. Sun screen. Perfume spritz.
+If you do not wish for a certain grooming treatment. Please do let us know. <br></br>Pricing dependent on size and grooming treatment </p>
           </div>
-          <div className='flex w-full'>
+          <div className='flex flex-wrap w-full'>
             <div className='w-1/2 border-r border-gray-300'>
               <div className='w-full bg-light-blue py-2 text-lg text-center text-white'>
                 Cat
               </div>
-              <div className='flex w-full'>
-                <div className='w-1/3 border-r bodre-gray-300 text-center'>
+              <div className='flex flex-wrap w-full'>
+                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
                   Small
                 </div>
-                <div className='w-1/3 border-r bodre-gray-300 text-center'>
+                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
                   Medium  
                 </div>
-                <div className='w-1/3 text-center'>
+                <div className='w-1/3 text-center py-2'>
                   Large
+                </div>
+                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                  R 180.00
+                </div>
+                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                  R 270.00  
+                </div>
+                <div className='w-1/3 text-center py-2'>
+                  R 330.00
                 </div>
               </div>
             </div>
             <div className='w-1/2'>
               <div className='w-full bg-light-blue py-2 text-lg text-center text-white'>
                 Dog
+              </div>
+              <div className='flex flex-wrap w-full'>
+                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                  Small
+                </div>
+                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                  Medium  
+                </div>
+                <div className='w-1/3 text-center py-2'>
+                  Large
+                </div>
+                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                  R 180.00
+                </div>
+                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                  R 270.00  
+                </div>
+                <div className='w-1/3 text-center py-3'>
+                  R 330.00
+                </div>
+              </div>
+            </div>
+            <div className='w-full border-r border-gray-300'>
+              <div className='w-full bg-light-blue py-2 text-lg text-center text-white'>
+                Individual Treatments
+              </div>
+              <div className='w-full flex flex-wrap'>
+                <div className='w-5/6 py-3 border-r border-gray-300 pl-16'>
+                  Nail Trim
+                </div>
+                <div className='w-1/6 text-center py-3 '>
+                  R 50.00
+                </div>
+                <div className='w-5/6 py-3 border-r border-gray-300 pl-16'>
+                  Wash and Brush / Deshedding
+                </div>
+                <div className='w-1/6 text-center py-3 '>
+                  R 100.00
+                </div>
+                <div className='w-5/6 py-3 border-r border-gray-300 pl-16'>
+                  Teeth Cleaning
+                </div>
+                <div className='w-1/6 text-center py-3 '>
+                  R 50.00
+                </div>
+                <div className='w-5/6 py-3 border-r border-gray-300 pl-16'>
+                  Ear Cleaning
+                </div>
+                <div className='w-1/6 text-center py-3 '>
+                  R 50.00
+                </div>
+                <div className='w-5/6 py-3 border-r border-gray-300 pl-16'>
+                  Paw Care
+                </div>
+                <div className='w-1/6 text-center py-3 '>
+                  R 30.00
+                </div>
               </div>
             </div>
           </div>
