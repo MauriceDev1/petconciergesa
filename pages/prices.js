@@ -12,10 +12,10 @@ export default function Prices() {
       <Hero height='h-72 sm:h-[55vh]' url="https://images.unsplash.com/photo-1559317245-d24c4c7f252b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"/>
       <div className='w-full py-10'>
         <div className='w-10/12 m-auto border border-gray-300 rounded'>
-          <div className='w-wull bg-gray-blue text-white py-2 text-center text-white'>
-            <h2 className=' text-2xl font-bold pb-5'>Grooming</h2>
-            <p className='text-normal'>Shampoo wash (specific to pets skin). Powder (dry) wash (specific to pets skin).Ear clean. Nail trim. Teeth clean. Brush of coat. Sun screen. Perfume spritz.
-If you do not wish for a certain grooming treatment. Please do let us know. <br></br>Pricing dependent on size and grooming treatment </p>
+          <div className='w-wull bg-gray-blue text-white py-10 text-center text-white'>
+            <h2 className=' text-2xl font-bold'>Grooming</h2>
+            <p className='text-normal px-10'>Shampoo wash (specific to pets skin). Powder (dry) wash (specific to pets skin).Ear clean. Nail trim. Teeth clean. Brush of coat. Sun screen. Perfume spritz.
+If you do not wish for a certain grooming treatment. Please do let us know. <br></br><span className='text-black'>*</span>Pricing dependent on size and grooming treatment </p>
           </div>
           <div className='flex flex-wrap w-full'>
             <div className='w-1/2 border-r border-gray-300'>
@@ -106,6 +106,131 @@ If you do not wish for a certain grooming treatment. Please do let us know. <br>
               </div>
             </div>
           </div>
+        </div>
+        <div className='w-10/12 m-auto border border-gray-300 rounded mt-10'>
+          <div className='w-wull bg-gray-blue text-white py-10 text-center text-white'>
+            <h2 className=' text-2xl font-bold'>Pet Sitting</h2>
+            <p className='text-normal'></p>
+          </div>
+          <div className='flex flex-wrap w-full'>
+            <div className='w-1/2 border-r border-gray-300'>
+              <div className='w-full bg-light-blue py-2 text-lg text-center text-white'>
+                Day
+              </div>
+              <div className='flex flex-wrap w-full'>
+                <div className='w-2/3 border-r bodre-gray-300 text-center py-2'>
+                  Sitting Schedule
+                </div>
+                <div className='w-1/3 text-center py-2'>
+                  Price  
+                </div>
+                <div className='w-2/3 border-r bodre-gray-300 p-2'>
+                  <p>Morning ~ cuddles then breakfast, morning walk and play time.<br></br>Afternoon ~ snack, late afternoon walk.<br></br>Evening ~ dinner, cuddles/play time and some undivided attention.</p>
+                </div>
+                <div className='w-1/3 text-center py-2'>
+                  R 150.00  
+                </div>
+              </div>
+            </div>
+            <div className='w-1/2'>
+              <div className='w-full bg-light-blue py-2 text-lg text-center text-white'>
+                Night
+              </div>
+              <div className='flex flex-wrap w-full'>
+                <div className='w-2/3 border-r bodre-gray-300 text-center py-2'>
+                  Sitting Schedule
+                </div>
+                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                  Price  
+                </div>
+                <div className='w-2/3 p-2 border-r border-gray-300'>
+                  <p>Late Afternoon ~ snack, late afternoon walk. <br></br>Evening ~ dinner, cuddles/play time and some undivided attention. <br></br>Your pet will be check on during the cause of the night. Potty breaks will be given when needed. Morning ~ cuddles then breakfast, morning walk and play time.</p>
+                </div>
+                <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
+                  R 250.00
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='w-10/12 m-auto border border-gray-300 rounded mt-10'>
+          <div className='w-wull bg-gray-blue text-white py-10 text-center text-white'>
+            <h2 className=' text-2xl font-bold'>Pet Walking</h2>
+            <p className='text-normal'>From pet home to walking location and return to pet home.</p>
+          </div>
+          <div className='flex flex-wrap w-full'>
+            <div className='w-1/2 border-r border-gray-300'>
+              <div className='w-full bg-light-blue py-2 text-lg text-center text-white'>
+                Less 20 km
+              </div>
+              <div className='flex flex-wrap w-full justify-center py-3'>
+                R 150.00
+              </div>
+            </div>
+            <div className='w-1/2'>
+              <div className='w-full bg-light-blue py-2 text-lg text-center text-white'>
+                Per km (There after)
+              </div>
+              <div className='flex flex-wrap w-full py-3 justify-center'>
+                R 10.00
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='w-10/12 m-auto border border-gray-300 rounded mt-10'>
+          <div className='w-wull bg-gray-blue text-white py-10 text-center text-white'>
+            <h2 className=' text-2xl font-bold'>Pet Taxi</h2>
+            <p className='text-normal'>From pet home to destination.</p>
+          </div>
+          <div className='flex flex-wrap w-full'>
+            <div className='w-1/2 border-r border-gray-300'>
+              <div className='w-full bg-light-blue py-2 text-lg text-center text-white'>
+                Less 20 km
+              </div>
+              <div className='flex flex-wrap w-full justify-center py-3'>
+                R 120.00
+              </div>
+            </div>
+            <div className='w-1/2'>
+              <div className='w-full bg-light-blue py-2 text-lg text-center text-white'>
+                Per km (There after)
+              </div>
+              <div className='flex flex-wrap w-full py-3 justify-center'>
+                R 6.00
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='w-10/12 m-auto border border-gray-300 rounded mt-10'>
+          <div className='w-wull bg-gray-blue text-white py-10 text-center text-white'>
+            <h2 className=' text-2xl font-bold'>Pet Training</h2>
+            <p className='text-normal'>Duration of training is a minimum of 4 weeks <br></br>(1 hour a day, 5 days a week.)</p>
+          </div>
+            <div className='w-full border-r border-gray-300'>
+              <div className='w-full bg-light-blue py-2 text-lg text-center text-white'>
+                Training Requirements
+              </div>
+              <div className='w-full flex flex-wrap'>
+                <div className='w-4/6 py-3 border-r border-gray-300 pl-16'>
+                  Behaviour Modification
+                </div>
+                <div className='w-2/6 text-center py-3 '>
+                  R 50.00 (per hour)
+                </div>
+                <div className='w-4/6 py-3 border-r border-gray-300 pl-16'>
+                  Litter Box / Potty Training 
+                </div>
+                <div className='w-2/6 text-center py-3 '>
+                R 50.00 (per hour)
+                </div>
+                <div className='w-4/6 py-3 border-r border-gray-300 pl-16'>
+                  Call Commands (Obedience Training)
+                </div>
+                <div className='w-2/6 text-center py-3 '>
+                R 50.00 (per hour)
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>
