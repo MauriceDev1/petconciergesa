@@ -15,7 +15,7 @@ export default function About() {
           <div className='md:w-2/3 text-lg sm:px-10'>
           <h1 
             className='text-white text-4xl md:text-6xl text-center py-8 sm:py-10 text-gray-600 font-bold my-auto'
-            style={{fontFamily: 'Blueberry'}}>History</h1>
+            >History</h1>
             <p className='sm:pb-10 text-xl'>
               Pet Concierge was officially founded in 2022 by Kristian R. Lawrence after 
               adopting two dogs and six cats and assisting other families with their pet&apos;s 
@@ -49,7 +49,7 @@ export default function About() {
           <div className='w-full md:w-2/3 text-lg sm:px-10'>
           <h1 
             className='text-white text-4xl md:text-6xl text-center py-10 text-gray-600 font-bold my-auto'
-            style={{fontFamily: 'Blueberry'}}>Our Vision Mission and Core Value:</h1>
+            >Our Vision Mission and Core Value:</h1>
             <ul className='sm:pb-10 text-xl'>
               <li className='flex py-2'><p className='pl-5'>Being able to help those who can’t help themselves is our vision.</p></li>
               <li className='flex py-2'><p className='pl-5'>Getting to know each animal and how best to love them is our mission.</p></li>
@@ -63,7 +63,7 @@ export default function About() {
         <div className='w-11/12 sm:w-8/12 m-auto sm:pb-14'>
         <h1 
             className='italic text-white text-4xl sm:text-6xl text-center py-10 text-gray-600 font-bold my-auto'
-            style={{fontFamily: 'Blueberry',lineHeight:'10vh'}}>Wagging tails and rumbling purrs is the reason we are in this industry</h1>
+            >Wagging tails and rumbling purrs is the reason we are in this industry.</h1>
         </div>
       </div>    
     </div>
