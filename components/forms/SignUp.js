@@ -8,16 +8,27 @@ export default function SignUp() {
   const subscribe = async() => {
     setLoading(!loading)
     if(email){
-        console.log('Maurice')
-        setTimeout(() => {
-            setLoading(false);
-        }, 4000);
-    }else{
+        let config = {
+          method: 'post',
+          url: 'http://localhost:3000/api/subscribers',
+          headers: {
+            'Content-TYpe': 'application/json'
+          },
+          data: email,
+        };
+        
+        try {
+          const response = await axios(config);
+          console.log(response);
+          setLoading(false);
+        } catch (error) {
+          console.log(error);
+          setLoading(false);
+        }
+
+      } else {
         setLoading(false);
     }
-    await axios.post("http://localhost:5000/subscribe",{email:email})
-    .then(res => console.log(res))
-    .catch(err => console.log(err));
   }
 
   return (
