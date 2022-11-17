@@ -15,13 +15,12 @@ function Footer() {
     <>
       <div className='flex w-full bg-gray-blue py-10'>
           <div className='flex flex-wrap w-8/12 m-auto py-12'>
-            <div className='w-full md:w-1/4 pr-8'>
+            <div className='w-full md:w-1/4 pr-8 pt-12'>
               <Image
                 src={WhiteLogo} 
                 alt="Company Logo" 
                 width={200} 
                 height={70} />
-              <p className='text-white pt-5 text-sm'>Pet Concierge is a registered institution registered with the </p>            
             </div>
             <div className='w-full md:w-1/4 mt-5'>
               <h3 className='text-white font-semibold'>Company</h3>
