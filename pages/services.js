@@ -47,7 +47,7 @@ export default function Home() {
               </div>
             </div>
             <div className='w-full sm:w-1/2 p-4'>
-              <div className='bg-gray-500 h-72 sm:h-96'>
+              <div className='bg-gray-500 h-72 sm:h-96' style={{backgroundImage:'url(https://cdn.pixabay.com/photo/2017/07/25/12/08/dog-2537902_1280.jpg)',backgroundSize:'cover'}}>
 
               </div>
               <div>
@@ -57,7 +57,7 @@ export default function Home() {
               </div>
             </div>
             <div className='w-full sm:w-1/2 p-4 m-auto'>
-              <div className='bg-gray-500 h-72 sm:h-96' style={{backgroundImage: 'url(https://images.unsplash.com/photo-1536505676517-18e3f57d24b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80)',backgroundSize: 'cover'}}>
+              <div className='bg-gray-500 h-72 sm:h-96' style={{backgroundImage: 'url(https://cdn.pixabay.com/photo/2017/09/07/11/15/kiss-2724733_1280.jpg)',backgroundSize: 'cover'}}>
 
               </div>
               <div>
