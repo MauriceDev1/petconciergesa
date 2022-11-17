@@ -22,7 +22,7 @@ export default async function handel (req, res){
       from: 'info@petconcierge.co.za',
       to: 'info@petconcierge.co.za' ,
       subject: 'Contact form information',
-      html:`<p>${email}</p>`
+      html:`<p>${JSON.parse(email)}</p>`
     
     });
 

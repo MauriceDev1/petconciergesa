@@ -17,7 +17,13 @@ export default function Contact() {
           headers: {
             'Content-TYpe': 'application/json'
           },
-          data: data,
+          data: {
+            firstName: firstName,
+            email: email,
+            phone: phone,
+            subject: subject,
+            message: message
+          },
         };
         
         try {

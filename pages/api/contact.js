@@ -4,8 +4,6 @@ import nodemailer from 'nodemailer';
 export default async function handel (req, res){
   const  data  = req.body;
 
-  console.log(data)
-
   let transporter = nodemailer.createTransport({
     host: 'mail.petconcierge.co.za',
     port: '465',
@@ -25,7 +23,7 @@ export default async function handel (req, res){
       from: 'info@petconcierge.co.za',
       to: 'info@petconcierge.co.za' ,
       subject: 'Contact form information',
-      html:`<p>Name : ${data.firstName}</p><p>Email : ${data.email}</p><p>Phone : ${data.phone}</p><p>Subject : ${data.subject}</p><p>Message : ${data.message}</p>`
+      html:`<p>${data}</p>`
     
     });
 
