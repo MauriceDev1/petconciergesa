@@ -10,7 +10,7 @@ export default function SignUp() {
     if(email){
         let config = {
           method: 'post',
-          url: 'https://spontaneous-gaufre-7ed8de.netlify.app/api/subscribers',
+          url: 'https://www.petconcierge.co.za/api/subscribers',
           headers: {
             'Content-TYpe': 'application/json'
           },

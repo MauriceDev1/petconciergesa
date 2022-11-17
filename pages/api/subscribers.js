@@ -11,7 +11,7 @@ export default async function handel (req, res){
     port: '465',
     secure: true,
     auth: {
-      user: 'test@petconcierge.co.za',
+      user: 'info@petconcierge.co.za',
       pass: 'Avocados#27',
     },
     tls: {
@@ -21,7 +21,7 @@ export default async function handel (req, res){
 
   try {
     let email = await transporter.sendMail({
-      from: 'test@petconcierge.co.za',
+      from: 'info@petconcierge.co.za',
       to: 'info@petconcierge.co.za' ,
       subject: 'Subscriber from website with following Email',
       html:`<p>${email}</p>`

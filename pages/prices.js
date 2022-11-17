@@ -58,13 +58,13 @@ If you do not wish for a certain grooming treatment. Please do let us know. <br>
                   Large
                 </div>
                 <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
-                  R 180.00
+                  R 250.00
                 </div>
                 <div className='w-1/3 border-r bodre-gray-300 text-center py-2'>
-                  R 270.00  
+                  R 350.00  
                 </div>
                 <div className='w-1/3 text-center py-3'>
-                  R 330.00
+                  R 400.00
                 </div>
               </div>
             </div>
