@@ -47,12 +47,11 @@ export default function About() {
           <div className='w-full md:w-2/3 text-lg sm:px-10'>
           <h1 
             className='text-white text-4xl md:text-6xl text-center py-10 text-gray-600 font-bold my-auto'
-            >Our Vision Mission and Core Value:</h1>
+            >Our Vision&#44; Mission and Core Value:</h1>
             <ul className='sm:pb-10 text-xl'>
               <li className='flex py-2'><p className='pl-5'>Being able to help those who can’t help themselves is our vision.</p></li>
               <li className='flex py-2'><p className='pl-5'>Getting to know each animal and how best to love them is our mission.</p></li>
               <li className='flex py-2'><p className='pl-5'>Respect towards them should be given for trust to be earned by them is our core value.</p></li>
-              <li className='flex py-2'><p className='pl-5'>We add these values to our business by placing people and pets over profit.</p></li>
             </ul>
           </div>
         </div>
@@ -61,7 +60,7 @@ export default function About() {
         <div className='w-11/12 sm:w-8/12 m-auto sm:pb-14'>
         <h1 
             className='italic text-white text-4xl sm:text-6xl text-center py-10 text-gray-600 font-bold my-auto'
-            >Wagging tails and rumbling purrs is the reason we are in this industry.</h1>
+            >Wagging tails and rumbling purrs are the reasons we are in this industry.</h1>
         </div>
       </div>    
     </div>
