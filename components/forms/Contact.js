@@ -8,18 +8,36 @@ export default function Contact() {
   
   const onSubmit = async(data) => {
     const {firstName,email,phone,subject,message} = data;
+    setLoading(true);
     if(firstName){
-        setLoading(!loading)
-        console.log(data)
-        setTimeout(() => {
-            setLoading(false)
-        }, 5000);
+
+        let config = {
+          method: 'post',
+          url: 'https://www.petconcierge.co.za/api/contact',
+          headers: {
+            'Content-TYpe': 'application/json'
+          },
+          data: data,
+        };
+        
+        try {
+
+          const response = await axios(config);
+          console.log(response);
+          setLoading(false);
+
+        } catch (error) {
+
+          console.log(error);
+          setLoading(false);
+
+        }
+
     }else{
-        setLoading(false)
+
+      setLoading(false);
+
     }
-    await axios.post("http://localhost:5000/subform",{data:data})
-    .then(res => console.log(res))
-    .catch(err => console.log(err));
   }; 
 
   return (
@@ -48,7 +66,7 @@ export default function Contact() {
         <textarea className='w-full rounded p-2 h-36 my-2 border border-gray-500' {...register("message")} style={{resize:'none'}}/>
         {errors.message && <span className='text-red-600 text-sm'>This field is required</span>}
         <button className="bg-blue-gray text-white w-full rounded py-2 hover:bg-gray-me cursor-pointer text-md">
-        {loading ? <div className='flex w-full'><div className="loader2 m-auto"></div></div> : 'Subscribe'}
+        {loading ? <div className='flex w-full'><div className="loader2 m-auto"></div></div> : 'Submit'}
         </button>
     </form>
   )

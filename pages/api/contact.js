@@ -2,9 +2,9 @@
 import nodemailer from 'nodemailer';
 
 export default async function handel (req, res){
-  const  email  = req.body;
+  const  data  = req.body;
 
-  console.log(email)
+  console.log(data)
 
   let transporter = nodemailer.createTransport({
     host: 'mail.petconcierge.co.za',
@@ -20,16 +20,20 @@ export default async function handel (req, res){
   });
 
   try {
-    let email = await transporter.sendMail({
+    
+    let emailResult = await transporter.sendMail({
       from: 'test@petconcierge.co.za',
       to: 'info@petconcierge.co.za' ,
-      subject: 'Subscriber from website with following Email',
-      html:`<p>${email}</p>`
+      subject: 'Contact form information',
+      html:`<p>Name : ${data.firstName}</p><p>Email : ${data.email}</p><p>Phone : ${data.phone}</p><p>Subject : ${data.subject}</p><p>Message : ${data.message}</p>`
+    
     });
 
-    console.log("Message Sent", email.messageId)
-    res.status(200).json(email.messageId)
-  } catch (error) {
+    console.log("Message Sent", emailResult.messageId)
+    res.status(200).json(emailResult.messageId)
+  
+} catch (error) {
     res.status(400).json(error)
   }
+
 }

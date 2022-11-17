@@ -26,7 +26,7 @@ export default function ServiceList() {
                 className='text-4xl md:text-6xl font-bold m-auto mb-5 sm:mb-10 md:py-0 text-center'>
                     Services Offered</h1>
             <ul className='mb-10 sm:mb-14'>
-              {ListServices.map(ls=> <li className='text-xl py-1 font-semibold' key={ls}><i class="fa-solid fa-paw mr-5"></i>{ls}</li> )}
+              {ListServices.map(ls=> <li className='text-xl py-1 font-semibold' key={ls}><i className="fa-solid fa-paw mr-5"></i>{ls}</li> )}
             </ul>
             <LinkButton link="/services" text="Find Out More" />
           </div>
