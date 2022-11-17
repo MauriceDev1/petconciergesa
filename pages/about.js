@@ -21,13 +21,11 @@ export default function About() {
               adopting two dogs and six cats and assisting other families with their pet&apos;s 
               well-being.
             <br></br><br></br>
-              It was suggested by loved ones that she brings this love for animals to life 
-              by starting a pet care service that not only cares for each pet as she does 
-              her own but also assisted pet parents in their daily pet errands.
+            It was suggested by loved ones that she brings this love for animals to life by starting a pet care service. That would care for each pet as she does her own while assisting pet parents in their daily pet errands.
+
+
             <br></br><br></br>
-              Loving each individually and honouring each one&apos;s personality and preferences, 
-              while meeting them at not only there needs but wants too is evident in every 
-              interaction between her and animal.
+            Loving each individually and honouring each one&apos;s personality and specific preference while meeting them at not only their needs but wants too, is evident in every interaction between her and animal.
             <br></br><br></br>
             </p>
           </div>
