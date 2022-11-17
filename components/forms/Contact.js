@@ -54,7 +54,7 @@ export default function Contact() {
         <input className='w-full rounded p-2 my-2 border border-gray-500' type="text" {...register("firstName", { required: true, maxLength: 20 })} />
         {errors.firstName && <span className='text-red-600 text-sm'>This field is required</span>}
         <div>Email</div>
-        <input className='w-full rounded p-2 my-2 border border-gray-500' type="email" {...register("email", { required: true, maxLength: 20 })}/>
+        <input className='w-full rounded p-2 my-2 border border-gray-500' type="email" {...register("email", { required: true, maxLength: 100 })}/>
         {errors.email && <span className='text-red-600 text-sm'>This field is required</span>}
         <div>Phone</div>
         <input className='w-full rounded p-2 my-2 border border-gray-500' type="tel" {...register("phone", { required: true, maxLength: 20 })}/>
